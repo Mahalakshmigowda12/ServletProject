@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <form action="task" method="post" >  
+ <fieldset>
+    <legend>Welcome to Student registration form</legend>
+    <table  >
+ <tr>
+    <td><label for="abc">Name</label></td>
+    <td>
+        <input type="text" id="abc" name="name"  placeholder="Name" required>
+    </td>
+ </tr>
+ <tr>
+    <td><label for="abc">Mobile</label> </td>
+    <td>
+ <input type="number" id="abc" name="mobile" required>
+    </td>
+ </tr>
+ <tr>
+    <td> <label for="abc">Degree</label> </td> 
+    <td><input type="text" id="abc" name="degree" required></td>
+ </tr>
+ <tr>
+    <td> <label for="abc">Stream</label> </td> 
+    <td><input type="text" id="abc" name="stream" required></td>
+ </tr>
+ <tr>
+    <td> <label for="abc">DOB</label> </td> 
+    <td><input type="datetime-local" id="abc" name="dob" ></td>
+ </tr>
+ <tr>
+    <td>
+        <label for="">gender</label>
+    </td>
+    <td>
+        <input type="radio" id="gender" name="gender" value="male">Male
+        <input type="radio" id="gender" name="gender" value="female">Female
+        <input type="radio" id="gender" name="gender" value="others">Others
+    </td>
+</tr>
+<tr>
+    <td> <label for="abc">Address</label> </td> 
+    <td><input type="text" id="abc" name="address" required></td>
+ </tr>
+ <tr>
+    <td> <label for="abc">Country</label> </td> 
+    <td>
+    <select name="country">
+    <option  >Selec4t</option>
+    <option  >India</option>
+    <option  >Australia</option>
+    <option >UK</option>
+    </select>
+    </td>
+ </tr>
+
+<tr>
+    <td><button>Submit</button></td>
+    <td><button type="reset">Cancel</button></td>
+   
+</tr>
+
+ </table>
+</fieldset>
+</form>
+
+</body>
+</html>
